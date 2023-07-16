@@ -1,0 +1,305 @@
+.canvas {
+    width: 1728px;
+    height: 1127px;
+    background-color: rgb(0, 13, 63);
+    position: relative;
+    margin: 0 auto;
+    color: rgb(255, 255, 255);
+    font-family: 微软雅黑;
+    font-size: 16px;
+    font-weight: 290;
+    line-height: 21px;
+    letter-spacing: -0.029999999329447746%;
+    text-align: center;
+}
+
+#fst {
+    position: absolute;
+    width: 119px;
+    height: 36px;
+    left: 702px;
+    top: 73px;
+    box-sizing: border-box;
+    border: 1.5px solid rgb(255, 255, 255);
+    border-radius: 18px;
+
+    color: rgb(255, 255, 255);
+    font-family: 微软雅黑;
+    font-size: 16px;
+    font-weight: 290;
+    line-height: 36px;
+    letter-spacing: -0.029999999329447746%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+ul {
+    list-style-type: none;
+}
+#sec {
+    position: absolute;
+    width: 119px;
+    height: 36px;
+    left: 831px;
+    top: 73px;
+    box-sizing: border-box;
+    border: 1.5px solid rgb(255, 255, 255);
+    border-radius: 18px;
+
+    color: rgb(255, 255, 255);
+    font-family: 微软雅黑;
+    font-size: 16px;
+    font-weight: 290;
+    line-height: 36px;
+    letter-spacing: -0.029999999329447746%;
+    text-align: center;
+    text-transform: uppercase;
+}
+#thd {
+    position: absolute;
+    width: 119px;
+    height: 36px;
+    left: 960px;
+    top: 73px;
+    box-sizing: border-box;
+    border: 1.5px solid rgb(255, 255, 255);
+    border-radius: 18px;
+
+    color: rgb(255, 255, 255);
+    font-family: 微软雅黑;
+    font-size: 16px;
+    font-weight: 290;
+    line-height: 36px;
+    letter-spacing: -0.029999999329447746%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.robot_intel {
+    position: absolute;
+    width: 215px;
+    height: 29px;
+    left: 73px;
+    top: 165px;
+    color: rgb(255, 255, 255);
+    font-family: 微软雅黑;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0.05999999865889549%;
+    text-align: center;
+    text-transform: capitalize;
+}
+.logo {
+    position: absolute;
+    width: 102px;
+    height: 48px;
+    left: 105px;
+    top: 55px;
+    color: rgb(255, 255, 255);
+    font-family: 微软雅黑;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -0.029999999329447746%;
+    text-align: center;
+    text-transform: uppercase;
+    z-index: 2;
+}
+.chatpdf {
+    position: absolute;
+    width: 536px;
+    height: 92px;
+    left: 73.5px;
+    top: 215px;
+
+    background: linear-gradient(90deg, rgb(252, 0, 255), rgb(0, 219, 222));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-family: Roboto;
+    font-size: 112px;
+    font-weight: 700;
+    line-height: 92px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+    overflow: visible;
+}
+.introduction {
+    display: inline-block;
+    position: absolute;
+    width: 702px;
+    height: 84px;
+    left: 86.5px;
+    top: 333px;
+
+    color: rgb(255, 255, 255);
+    font-family: 微软雅黑;
+    font-size: 14px;
+    font-weight: 290;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: justify;
+    text-transform: capitalize;
+}
+.text_one {
+    width: 389px;
+    height: 169px;
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 24.6px 33.06px 29.12px 32.66px;
+    position: absolute;
+    left: 73px;
+    top: 754px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: justify;
+    border-radius: 50px;
+}
+.text_two {
+    width: 576px;
+    height: 169px;
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 23px 34px 9px 34px;
+    position: absolute;
+    left: 487px;
+    top: 754px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: justify;
+    border-radius: 50px;
+}
+.circle_by_logo {
+    position: absolute;
+    width: 57.06px;
+    height: 57.06px;
+    left: 88px;
+    right: -26.06px;
+    top: 62.47px;
+    bottom: -55px;
+    border-radius: 28.53px;
+    background: linear-gradient(180deg, rgb(88, 55, 221), rgba(3, 3, 3, 0) 100%);
+}
+
+.drop-area {
+    position: absolute;
+    justify-content: center;
+    width: 750px;
+    height: 279px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 438px 74.5px;
+    border-radius: 25px;
+}
+
+
+
+.upload-icon{
+    margin-top: 60px;
+    position: relative;
+    color: #40a9ff;
+    font-size: 80px;
+}
+
+.tip{
+    color: rgb(255, 255, 255);
+    font-size: 23px;
+}
+
+.tip2{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+
+.task-list{
+    
+    margin-top: 20px;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.task{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+}
+
+.start_chat {
+    position: absolute;
+    left: 707px;
+    top: 965px;
+    width: 313px;
+    height: 313px;
+    background: linear-gradient(180deg, rgb(166, 0, 254) 9.924%, rgba(70, 0, 255, 0) 64.776%);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 156.5px;
+    overflow: hidden;
+    color: rgb(255, 255, 0);
+    font-family: Montserrat;
+    font-size: 33px;
+    font-weight: 800;
+    line-height: 38px;
+}
+.mints {
+    background-image: url(../pictures/Vector.png);
+    width: 76px;
+    height: 63px;
+    position: absolute;
+    margin: 30px 120px;
+}
+.man {
+    background-image: url(../pictures/16_clear.png);
+    position: absolute;
+    width: 891px;
+    height: 970px;
+    left: 1098px;
+    top: 157px;
+    z-index: 2;
+}
+.ellipse {
+    position: absolute;
+    width: 1334px;
+    height: 1334px;
+    left: 790.43px;
+    top: -96.34px;
+    background: radial-gradient(50% 50% at 50% 50%, rgb(160, 30, 254), rgba(78, 0, 255, 0) 92.708%);
+}
+.username {
+    display: inline-block;
+    z-index: 3;
+    position: absolute;
+    width: 108px;
+    height: 24px;
+    left: 1450px;
+    top: 65px;
+    color: rgb(224, 224, 224);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.user {
+    position: absolute;
+    left: 1576px;
+    top: 27px;
+    z-index: 2;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background: linear-gradient(154.98deg, rgb(72, 155, 28) 12.367%, rgb(180, 232, 123) 87.631%);
+    border: 2px solid rgb(255, 255, 255);
+}

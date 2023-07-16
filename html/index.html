@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/index.css">
+
+    <script type="text/javascript">
+        function F_Open_dialog() 
+        { 
+        document.getElementById("file").click(); 
+        }
+        </script>
+
+
+
+</head>
+<body>
+    <div class="canvas">
+        <div class="logo">LOGO</div>
+        <div class="circle_by_logo"></div>
+    <nav>
+        <ul>
+            <li id="fst">CONCEPT</li>
+            <li id="sec">CHATROOM</li>
+            <li id="thd">ACCOUNT</li>
+        </ul>
+    </nav>
+    <div class="robot_intel">Robot Intelligence</div>
+    <div class="chatpdf">CHATPDF</div>
+    <div class="introduction">ChatPDF是一个基于Python的PDF处理工具，它可以用于创建、合并、拆分、加密和解密PDF文件，以及提取文本<br>和图像等。ChatPDF提供了简单易用的API，使得用户可以方便地完成各种PDF处理任务。ChatPDF还是一种工具<br>，它使用户能够像人一样与他们的PDF文档进行交互。它的工作原理是分析PDF文件以创建语义索引，然后将相关<br>段落呈现给文本生成AI。</div>
+
+    
+    <div class="uploading">
+        <div class="drop-area">
+            
+            <ion-icon class="upload-icon" name="duplicate-outline"></ion-icon>
+            <p class="tip">点击或将文件拖拽到这里上传</p>
+            <p class="tip2">支持扩展名：doc.docx.pdf</p>
+            <input type="file" id="file" style="display:none">
+            <button type="button" onclick="F_Open_dialog()">
+            </button>
+            <div class="showFile">
+            </div>
+        <div class="task-list">
+            <div class="task">
+                <a target="_blank" class="task-name">File name</a>
+                <span class="task-progress">50%</span>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <script>
+        file.onchange=function () {
+            console.dir(this.files);
+            //获取文件
+            let fileOne=this.files;
+            for(let i=0;i<fileOne.length;i++){
+                let newFile=new FileReader();
+                console.log(fileOne[i]);
+                if(fileOne[i].type.includes('image')){
+                    newFile.readAsDataURL(fileOne[i])
+                }else if(fileOne[i].type.includes('text')){
+                    newFile.readAsText(fileOne[i],"GB2312")
+                }
+                newFile.onload=function () {
+                    console.log('ff');
+                    //获取读取资源的信息
+                    let result=this.result;
+                    console.log(result);
+                    let dom='';
+                    //获取showFile这个标签
+                    let showFile=document.querySelector('.showFile');
+                    if(fileOne[i].type.includes('image')){
+                        let img=new Image();
+                        img.src=result;
+                        showFile.appendChild(img)
+                    }else if(fileOne[i].type.includes('text')){
+                        dom=document.createElement('p')
+                        dom.innerHTML=result;
+                        showFile.appendChild(dom)
+                    }
+                }
+            }
+        }
+    </script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="./FileUpload.js"></script>
+    <script src="./script.js"></script>
+
+    
+    <div class="text_one">
+        无需注册，登录，通过上传PDF文件到<br>ChatPDF，就能实现和PDF跨语言对<br>话，并根据PDF内容回答的提问。
+    </div> 
+
+    <div class="text_two">
+        通过ChatPDF能够实现和PDF聊天。跨语言是指如果PDF是<br>英文，您可以输入中文和它对话，反之亦然。同时，用户登录<br>可以为您记录上传文件以及您与ChatPDF的聊天内容。
+    </div>
+    <div class="username">User&nbsp;Name</div>
+    <div class="user"></div>
+    <div class="start_chat">
+        START <br> CHAT <br>
+        <div class="mints"></div>
+    </div>
+    <div class="man"></div>
+    <div class="ellipse"></div>
+    
+</div>
+</body>
+</html>

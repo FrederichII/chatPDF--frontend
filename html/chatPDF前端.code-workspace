@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../dnd-file-uploader-main/server"
+		}
+	],
+	"settings": {}
+}
