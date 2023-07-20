@@ -1,5 +1,5 @@
-import * as PDFJS from "/pdf.js";
-import pdfjsWorker from "./pdf.worker.js";
+import * as PDFJS from "../pdf.js/src/pdf.js";
+import pdfjsWorker from "../pdf.js/src/pdf.worker.js";
 PDFJS.GlobalWorkerOptions.workerSrc = pdfjsWorker;
 const pdfUrl = "../pdf.js/test/pdfs/160F-2019.pdf";
 console.log(pdfUrl);
