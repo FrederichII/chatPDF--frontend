@@ -13,14 +13,19 @@
     text-align: center;
 }
 
+ul {
+    list-style-type: none;
+}
+
 #fst {
+    display: inline-block;
     position: absolute;
     width: 119px;
     height: 36px;
     left: 702px;
     top: 73px;
     box-sizing: border-box;
-    border: 1.5px solid rgb(255, 255, 255);
+    border: 1.5px solid rgb(0, 13, 63);
     border-radius: 18px;
 
     color: rgb(255, 255, 255);
@@ -33,17 +38,20 @@
     text-transform: uppercase;
 }
 
-ul {
-    list-style-type: none;
+#fst:hover{
+    border: 1.5px solid rgb(255, 255, 255);
 }
+
+
 #sec {
+    display: inline-block;
     position: absolute;
     width: 119px;
     height: 36px;
     left: 831px;
     top: 73px;
     box-sizing: border-box;
-    border: 1.5px solid rgb(255, 255, 255);
+    border: 1.5px solid rgb(0, 13, 63);
     border-radius: 18px;
 
     color: rgb(255, 255, 255);
@@ -55,16 +63,22 @@ ul {
     text-align: center;
     text-transform: uppercase;
 }
-#thd {
+
+#sec:hover{
+    border: 1.5px solid rgb(255, 255, 255);
+}
+
+#thd a{
+    display: inline-block;
     position: absolute;
     width: 119px;
     height: 36px;
     left: 960px;
     top: 73px;
     box-sizing: border-box;
-    border: 1.5px solid rgb(255, 255, 255);
+    border: 1.5px solid rgb(0, 13, 63);
     border-radius: 18px;
-
+    text-decoration: none;
     color: rgb(255, 255, 255);
     font-family: 微软雅黑;
     font-size: 16px;
@@ -73,6 +87,10 @@ ul {
     letter-spacing: -0.029999999329447746%;
     text-align: center;
     text-transform: uppercase;
+}
+
+#thd:hover{
+    border: 1.5px solid rgb(255, 255, 255);
 }
 
 .robot_intel {
