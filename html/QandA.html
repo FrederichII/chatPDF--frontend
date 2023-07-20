@@ -4,25 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="../css/QandA.css">
+    <script src="../js/viewpdf.js"></script>
 </head>
 <body>
+    <div class="canvas">
     <div class="navigator">
-        <div class="logo"></div>
+        <div class="logo">LOGO</div>
         <div class="circle_by_logo"></div>
-        <nav>
-            <ul>
-                <li id="fst">CONCEPT</li>
-                <li id="sec">CHATROOM</li>
-                <li id="thd">ACCOUNT</li>
-            </ul>
-        </nav>
+        <ul id="list">
+            <li id="fst" class="element"><a href="./index.html">CONCEPT</a></li>
+            <li id="sec" class="element"><a href="./QandA.html">CHATROOM</a></li>
+            <li id="thd" class="element"><a href="./login_1.html">ACCOUNT</a></li>
+        </ul>
         <div class="username">User&nbsp;Name</div>
         <div class="user"></div>
     </div>
-    <div class="main"></div>
-    <div class="pdf_page"></div>
-    <canvas class="veritcal_line"></canvas>
+
+
+    <div class="pdf_area">
+        <div class="pdf_container"></div>
+    </div>
+    <canvas class="vertical_line"></canvas>
+    <div class="small_circle"></div>
     <canvas class="horizontal_line"></canvas>
     <input type="text" name="" id="">
+    </div>
 </body>
 </html>

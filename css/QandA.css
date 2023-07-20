@@ -1,0 +1,199 @@
+.canvas {
+    width: 1728px;
+    height: 1127px;
+    background-color: rgb(0, 13, 63);
+    position: relative;
+    margin: 0 auto;
+    color: rgb(255, 255, 255);
+    font-family: 微软雅黑;
+    font-size: 16px;
+    font-weight: 290;
+    line-height: 21px;
+    letter-spacing: -0.029999999329447746%;
+}
+
+.navigator {
+    position: absolute;
+    width: 1728px;
+    height: 120px;
+    left: 0;
+    top: 0;
+    background: rgba(0, 167, 255, 0.2);
+    /* 玻璃效果 */
+    /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+}
+
+.logo {
+    position: absolute;
+    width: 102px;
+    height: 48px;
+    left: 101px;
+    top: 40px;
+    color: rgb(255, 255, 255);
+    font-family: 微软雅黑;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -0.029999999329447746%;
+    text-align: center;
+    text-transform: uppercase;
+    z-index: 2;
+}
+
+.circle_by_logo {
+    position: absolute;
+    width: 57.06px;
+    height: 57.06px;
+    left: 84px;
+    right: -26.06px;
+    top: 47.47px;
+    bottom: -55px;
+    border-radius: 28.53px;
+    background: linear-gradient(180deg, rgb(88, 55, 221), rgba(3, 3, 3, 0) 100%);
+}
+
+.username {
+    display: inline-block;
+    z-index: 3;
+    position: absolute;
+    width: 108px;
+    height: 24px;
+    left: 1450px;
+    top: 47px;
+    color: rgb(224, 224, 224);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.user {
+    position: absolute;
+    left: 1575px;
+    top: 9px;
+    z-index: 2;
+    width: 95px;
+    height: 95px;
+    border-radius: 47.5px;
+    background: linear-gradient(154.98deg, rgb(72, 155, 28) 12.367%, rgb(180, 232, 123) 87.631%);
+    border: 2px solid rgb(255, 255, 255);
+}
+
+ul {
+    list-style-type: none;
+    display: inline-block;
+}
+
+#fst a {
+    display: inline-block;
+    position: absolute;
+    width: 119px;
+    height: 36px;
+    left: 702px;
+    top: 73px;
+    box-sizing: border-box;
+    border: 1.5px solid rgba(0, 43.8, 101.4);
+    border-radius: 18px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: 微软雅黑;
+    font-size: 16px;
+    font-weight: 290;
+    line-height: 36px;
+    letter-spacing: -0.029999999329447746%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#fst a:hover {
+    border: 1.5px solid #fff;
+}
+
+#sec a {
+    display: inline-block;
+    position: absolute;
+    width: 119px;
+    height: 36px;
+    left: 831px;
+    top: 73px;
+    box-sizing: border-box;
+    border: 1.5px solid rgba(0, 43.8, 101.4);
+    border-radius: 18px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: 微软雅黑;
+    font-size: 16px;
+    font-weight: 290;
+    line-height: 36px;
+    letter-spacing: -0.029999999329447746%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#sec a:hover {
+    border: 1.5px solid #fff;
+}
+
+#thd a {
+    display: inline-block;
+    position: absolute;
+    width: 119px;
+    height: 36px;
+    left: 960px;
+    top: 73px;
+    box-sizing: border-box;
+    border: 1.5px solid rgba(0, 43.8, 101.4);
+    border-radius: 18px;
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: 微软雅黑;
+    font-size: 16px;
+    font-weight: 290;
+    line-height: 36px;
+    letter-spacing: -0.029999999329447746%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#thd a:hover {
+    border: 1.5px solid #fff;
+}
+
+.pdf_area {
+    position: absolute;
+    width: 810px;
+    height: 996px;
+    left: 28px;
+    top: 120px;
+    background: rgba(232, 195, 255, 0.2);
+    border: 3px solid rgb(255, 255, 255);
+    /* 玻璃效果 */
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    border-radius: 30px;
+}
+
+.vertical_line{
+    height: 997px;
+    width: 1px;
+    background-color: #fff;
+    position: absolute;
+    left: 864px;
+    top: 125px;
+}
+
+.small_circle{
+    height: 8px;
+    width: 8px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    position: absolute;
+    top:115px;
+    left: 859.5px; ;
+    
+}
+
+#pdf_container{
+}
