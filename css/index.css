@@ -15,65 +15,15 @@
 
 ul {
     list-style-type: none;
+    display: inline-block;
 }
 
-#fst {
+#fst a{
     display: inline-block;
     position: absolute;
     width: 119px;
     height: 36px;
     left: 702px;
-    top: 73px;
-    box-sizing: border-box;
-    border: 1.5px solid rgb(0, 13, 63);
-    border-radius: 18px;
-
-    color: rgb(255, 255, 255);
-    font-family: 微软雅黑;
-    font-size: 16px;
-    font-weight: 290;
-    line-height: 36px;
-    letter-spacing: -0.029999999329447746%;
-    text-align: center;
-    text-transform: uppercase;
-}
-
-#fst:hover{
-    border: 1.5px solid rgb(255, 255, 255);
-}
-
-
-#sec {
-    display: inline-block;
-    position: absolute;
-    width: 119px;
-    height: 36px;
-    left: 831px;
-    top: 73px;
-    box-sizing: border-box;
-    border: 1.5px solid rgb(0, 13, 63);
-    border-radius: 18px;
-
-    color: rgb(255, 255, 255);
-    font-family: 微软雅黑;
-    font-size: 16px;
-    font-weight: 290;
-    line-height: 36px;
-    letter-spacing: -0.029999999329447746%;
-    text-align: center;
-    text-transform: uppercase;
-}
-
-#sec:hover{
-    border: 1.5px solid rgb(255, 255, 255);
-}
-
-#thd a{
-    display: inline-block;
-    position: absolute;
-    width: 119px;
-    height: 36px;
-    left: 960px;
     top: 73px;
     box-sizing: border-box;
     border: 1.5px solid rgb(0, 13, 63);
@@ -89,8 +39,61 @@ ul {
     text-transform: uppercase;
 }
 
-#thd:hover{
-    border: 1.5px solid rgb(255, 255, 255);
+#fst a:hover{
+    border: 1.5px solid #fff;
+}
+
+
+#sec a{
+    display: inline-block;
+    position: absolute;
+    width: 119px;
+    height: 36px;
+    left: 831px;
+    top: 73px;
+    box-sizing: border-box;
+    border: 1.5px solid rgb(0, 13, 63);
+    border-radius: 18px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: 微软雅黑;
+    font-size: 16px;
+    font-weight: 290;
+    line-height: 36px;
+    letter-spacing: -0.029999999329447746%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#sec a:hover{
+    border: 1.5px solid #fff;
+}
+
+
+#thd a{
+    display: inline-block;
+    position: absolute;
+    width: 119px;
+    height: 36px;
+    left: 960px;
+    top: 73px;
+    box-sizing: border-box;
+    border: 1.5px solid rgb(0, 13, 63);
+    border-radius: 18px;
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: 微软雅黑;
+    font-size: 16px;
+    font-weight: 290;
+    line-height: 36px;
+    letter-spacing: -0.029999999329447746%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#thd a:hover{
+    border: 1.5px solid #fff;
 }
 
 .robot_intel {
