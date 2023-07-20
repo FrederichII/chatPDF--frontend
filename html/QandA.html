@@ -5,7 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../css/QandA.css">
-    <script src="../js/viewpdf.js"></script>
+    <script type="module" src="../js/viewpdf.js"></script>
+    <script>
+        const button = document.getElementsByTagName("button");
+        button.onclick = () => {document.getElementById("input").innerHTML="";}
+    </script>
 </head>
 <body>
     <div class="canvas">
@@ -28,7 +32,14 @@
     <canvas class="vertical_line"></canvas>
     <div class="small_circle"></div>
     <canvas class="horizontal_line"></canvas>
-    <input type="text" name="" id="">
+    <div id="dialogue">
+        <form id="form">
+        <input type="text" id="input" placeholder="键入以查询ChatGPT">
+        <button type="submit"><img src="../pictures/submit.jpeg" alt="can't read pictures">
+        </form>
+        </button>
+    </div>
+    
     </div>
 </body>
 </html>

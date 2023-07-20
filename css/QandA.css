@@ -91,7 +91,7 @@ ul {
     width: 119px;
     height: 36px;
     left: 702px;
-    top: 73px;
+    top: 53px;
     box-sizing: border-box;
     border: 1.5px solid rgba(0, 43.8, 101.4);
     border-radius: 18px;
@@ -116,7 +116,7 @@ ul {
     width: 119px;
     height: 36px;
     left: 831px;
-    top: 73px;
+    top: 53px;
     box-sizing: border-box;
     border: 1.5px solid rgba(0, 43.8, 101.4);
     border-radius: 18px;
@@ -141,7 +141,7 @@ ul {
     width: 119px;
     height: 36px;
     left: 960px;
-    top: 73px;
+    top: 53px;
     box-sizing: border-box;
     border: 1.5px solid rgba(0, 43.8, 101.4);
     border-radius: 18px;
@@ -175,7 +175,7 @@ ul {
     border-radius: 30px;
 }
 
-.vertical_line{
+.vertical_line {
     height: 997px;
     width: 1px;
     background-color: #fff;
@@ -184,16 +184,47 @@ ul {
     top: 125px;
 }
 
-.small_circle{
+.small_circle {
     height: 8px;
     width: 8px;
     border: 1px solid #fff;
     border-radius: 5px;
     position: absolute;
-    top:115px;
-    left: 859.5px; ;
+    top: 115px;
+    left: 859.5px;
+}
+
+#pdf_container {
+}
+
+#dialogue {
+    width: 679px;
+    height: 53px;
+    position: absolute;
+    top: 985px;
+    left: 958px;
+}
+
+#input {
+    width: 679px;
+    height: 53px;
+    background: rgba(255, 255, 255, 0.2);
+    opacity: 0.95;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius:10px ;
+    /* 玻璃效果 */
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 24px;
+    font-weight: 500;
+    color:azure;
     
 }
 
-#pdf_container{
+button {
+    display: inline;
+    position: absolute;
+    width: 30.63px;
+    height: 29.9px;
+    left: 625.4px;
+    top:13.38px;
 }

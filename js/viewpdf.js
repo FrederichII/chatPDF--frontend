@@ -1,11 +1,11 @@
-import * as PDFJS from "../pdf.js/src/pdf.js";
-import pdfjsWorker from "../pdf.js/src/pdf.worker.js";
+import * as PDFJS from "/pdf.js";
+import pdfjsWorker from "./pdf.worker.js";
 PDFJS.GlobalWorkerOptions.workerSrc = pdfjsWorker;
-const pdfUrl = "#";
+const pdfUrl = "../pdf.js/test/pdfs/160F-2019.pdf";
 console.log(pdfUrl);
 PDFJS.getDocument(pdfUrl).promise.then((pdfDoc) => {
     const totalPages = pdfDoc.numPages; // pdf 的总页数
-    const canvasContainer = document.getElementById("#canvasContainer"); //html中需创建一个相应的div容器，用于存放canvas元素
+    const pdfContainer = document.getElementById("#pdf_container"); //html中需创建一个相应的div容器，用于存放canvas元素
     for (let i = 1; i <= totalPages; i++) {
         // 第4步：使用 pdfDoc.getPage（i） 获取第 i 页的数据
         pdfDoc.getPage(i).then((page) => {
